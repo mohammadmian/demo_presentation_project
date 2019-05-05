@@ -1,12 +1,12 @@
-# demo_presentation_project
-This is a demo project for web qa-automation using Cucumber, Selenium and java.
+# Cucumber-Java Demo Project
+This is a demo project for QA-Automation of web based applications using Cucumber, Selenium and java.
 
 #CUCUMBER is a BDD tool used for QA-Automation.
-Cucumber is a tool that allows us to Gherkin language and create a project based on BDD.
-Behavior Driven Development style test cases writen in Gherkin are very easy to read
-and understand. This allows the entire team technical and non-technical people to colaborate
+Cucumber is a tool that allows the use of Gherkin language based on BDD.
+Behavior Driven Development style test cases written in Gherkin are very easy to read
+and understand. This allows the entire team technical and non-technical people to collaborate
 and create test cases based on behaviors. 
-But this is not the only benifit of cucumber. Please see this --> https://cucumber.io/docs for more information
+But this is not the only benefit of cucumber. Please see this --> https://cucumber.io/docs for more information on cucumber.
 Following is the example of the feature file being used in this demo project.
 
 
@@ -18,10 +18,13 @@ Scenario: User should not be able to login with invalid credentials
     Then The user should see the invalid username or password message as "Your login is invalid. Please try again."
     
 
-#This project uses Page Object Model for housing locators for webelements and action methods that are used in the step_definitions classes.
+# Page Object Model.
+This project uses Page Object Model for housing locators for WebElements and action methods that are used in the step_definitions classes.
 
-Page Object Model allows for reusability and efficient mantainability of locators and action methods to perform QA-Automation of web applications.
+Page Object Model allows for reusability and efficient maintainability of locators and action methods.
 
-#This project is a Maven project. A Maven project uses the .pom (Project Object Model) file that contains all the dependencies for various java libraries that might be needed to use in the project. This makes this project ready to be pluged into a CICD platform such as Jenkins to run secheduled regression.
+# This project is a Maven project. 
+A Maven project uses the .pom (Project Object Model) file that contains all the dependencies for various java libraries that might be used in the project. This makes this project ready to be plugged into a CICD platform such as Jenkins to run scheduled regression.
 
 Isn't this amazing?
+
